@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "Your secret API"
 
 while True:
 	ask = input('\nHUMAN: \n')
@@ -15,5 +15,3 @@ while True:
 
 	text = response['choices'][0]['text']
 	print('\nCHAT GPT: ' + text)
-
-# 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
